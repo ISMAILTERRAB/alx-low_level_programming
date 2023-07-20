@@ -3,7 +3,7 @@
 /**
  * print_diagonal - draws a diagonal line
  *
- * @n: number of time charcter '\' should be printed
+ * @n: number of time charcter \ should be printed
 */
 
 void print_diagonal(int n)
@@ -18,7 +18,7 @@ void print_diagonal(int n)
 		{
 			for (space = 1; space <= postn; space++)
 				_putchar(' ');
-			_putchar(92);
+			_putchar(92); /*is equel to '/' char*/
 			_putchar('\n');
 		}
 	}
