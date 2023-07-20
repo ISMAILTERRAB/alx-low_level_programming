@@ -4,8 +4,6 @@
  * print_diagonal - draws a diagonal line
  *
  * @n: number of time charcter \ should be printed
- *
- * Return: always 0
 */
 
 void print_diagonal(int n)
@@ -13,7 +11,7 @@ void print_diagonal(int n)
 	int postn, space;
 
 	if (n <= 0)
-		_purchar('\n');
+		_putchar('\n');
 	else
 	{
 		for (postn = 1; postn <= n; postn++)
