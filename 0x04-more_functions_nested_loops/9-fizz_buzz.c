@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - print numbers 1 - 100 followed by new line
@@ -21,14 +22,12 @@ int main(void)
 			printf("Buzz");
 		else if (num % 5 == 0 && num % 3 == 0)
 			printf("FizzBuzz");
-		else
+		else if (num == 1)
 			printf("%d", num);
-
-		if (num != 100)
-			printf(" ");
 		else
-			printf('\n');
+			printf(" %d", num);
 	}
+	printf('\n');
 
 	return (0);
 }
