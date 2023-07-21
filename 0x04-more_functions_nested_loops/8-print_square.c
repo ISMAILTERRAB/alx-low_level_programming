@@ -4,8 +4,6 @@
  * print_square - print a square using the character #
  *
  * @size: is the size of the square
- * @column: num of column
- * @row: num of rows
  *
  * Return: always 0 (success)
 */
