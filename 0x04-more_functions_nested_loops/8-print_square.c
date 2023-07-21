@@ -8,7 +8,7 @@
  * Return: always 0
 */
 
-oid print_square(int size)
+void print_square(int size)
 {
 	int row, column;
 
